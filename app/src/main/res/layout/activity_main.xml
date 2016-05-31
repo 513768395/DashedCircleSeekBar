@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wufang.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9C1C"
+        android:gravity="center">
+
+    <com.example.wufang.views.DashedCircleSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:progressIndicatorImage = "@drawable/ic_progress_bar"/>
+    </LinearLayout>
+</RelativeLayout>
