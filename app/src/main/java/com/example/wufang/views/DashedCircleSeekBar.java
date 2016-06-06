@@ -134,7 +134,7 @@ public class DashedCircleSeekBar extends View {
         ta.recycle();
     }
 
-    private int maxProgress = 200;
+    private int maxProgress = 100;
     private int progress = 0;
 
     private Paint pc = new Paint();
